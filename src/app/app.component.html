@@ -1,0 +1,9 @@
+<h1>Hello {{ displayName}}</h1>
+
+<button (click)="register()">Register</button>
+<button (click)="login()">Login </button>
+<button (click)="logout()">Logout</button>
+
+<ul>
+    <li *ngFor="let person of people">{{ person.firstName}}</li>
+</ul>
